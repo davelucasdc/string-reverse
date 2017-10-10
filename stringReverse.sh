@@ -1,6 +1,6 @@
 #!/bin/bash
 
-word="cat"
+word=$1
 wordLength=${#word}
 
 for((i=${wordLength}; i >= 0; i--)); do
